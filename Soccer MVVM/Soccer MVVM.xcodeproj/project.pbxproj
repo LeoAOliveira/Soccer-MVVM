@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A703A4512511727E00F703E5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703A4502511727E00F703E5 /* Coordinator.swift */; };
+		A703A4532511745100F703E5 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703A4522511745100F703E5 /* RootCoordinator.swift */; };
+		A72A529C251D5E9300A1AF15 /* AddPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A529B251D5E9300A1AF15 /* AddPlayerViewModel.swift */; };
+		A72BD8AB2550496C006DAC67 /* PlayerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BD8AA2550496C006DAC67 /* PlayerListViewModel.swift */; };
+		A72BD8B025504A6F006DAC67 /* Soccer_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A72BD8AE25504A6F006DAC67 /* Soccer_MVVM.xcdatamodeld */; };
+		A72BD8B625504BF6006DAC67 /* PlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BD8B525504BF6006DAC67 /* PlayerExtension.swift */; };
+		A72BD8C025504D5E006DAC67 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BD8BF25504D5E006DAC67 /* CoreDataManager.swift */; };
+		A72DCCF42509856E0092DDA7 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DCCF32509856E0092DDA7 /* AutoLayout.swift */; };
+		A72DCCF925098B430092DDA7 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DCCF825098B430092DDA7 /* PlayerModel.swift */; };
+		A72DCCFB250996DE0092DDA7 /* PlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DCCFA250996DE0092DDA7 /* PlayerListCell.swift */; };
+		A7560F192522A4EE00E24F0A /* Soccer_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7560F182522A4EE00E24F0A /* Soccer_MVVMTests.swift */; };
+		A7560F232522A51300E24F0A /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7560F222522A51300E24F0A /* PersistenceTests.swift */; };
+		A7699DDB2523E54300E1B69F /* AddPlayerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7699DDA2523E54300E1B69F /* AddPlayerViewModelTests.swift */; };
+		A7B1DD7925083CB10066F250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DD7825083CB10066F250 /* AppDelegate.swift */; };
+		A7B1DD7B25083CB10066F250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DD7A25083CB10066F250 /* SceneDelegate.swift */; };
+		A7B1DD7D25083CB10066F250 /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DD7C25083CB10066F250 /* PlayerListViewController.swift */; };
+		A7B1DD8225083CB30066F250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B1DD8125083CB30066F250 /* Assets.xcassets */; };
+		A7B1DD8525083CB30066F250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B1DD8325083CB30066F250 /* LaunchScreen.storyboard */; };
+		A7F4F47C25102F8B0038A5EC /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4F47B25102F8B0038A5EC /* AddPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7560F1B2522A4EE00E24F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B1DD6D25083CB00066F250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B1DD7425083CB00066F250;
+			remoteInfo = "Soccer MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A703A4502511727E00F703E5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A703A4522511745100F703E5 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A72A529B251D5E9300A1AF15 /* AddPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewModel.swift; sourceTree = "<group>"; };
+		A72BD8AA2550496C006DAC67 /* PlayerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListViewModel.swift; sourceTree = "<group>"; };
+		A72BD8AF25504A6F006DAC67 /* SoccerMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoccerMVVM.xcdatamodel; sourceTree = "<group>"; };
+		A72BD8B525504BF6006DAC67 /* PlayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerExtension.swift; sourceTree = "<group>"; };
+		A72BD8BF25504D5E006DAC67 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A72DCCF32509856E0092DDA7 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		A72DCCF825098B430092DDA7 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		A72DCCFA250996DE0092DDA7 /* PlayerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListCell.swift; sourceTree = "<group>"; };
+		A7560F162522A4EE00E24F0A /* Soccer MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soccer MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7560F182522A4EE00E24F0A /* Soccer_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer_MVVMTests.swift; sourceTree = "<group>"; };
+		A7560F1A2522A4EE00E24F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7560F222522A51300E24F0A /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		A7699DDA2523E54300E1B69F /* AddPlayerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewModelTests.swift; sourceTree = "<group>"; };
+		A7B1DD7525083CB00066F250 /* Soccer MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soccer MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B1DD7825083CB10066F250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7B1DD7A25083CB10066F250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7B1DD7C25083CB10066F250 /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		A7B1DD8125083CB30066F250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B1DD8425083CB30066F250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7B1DD8625083CB30066F250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F4F47B25102F8B0038A5EC /* AddPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7560F132522A4EE00E24F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B1DD7225083CB00066F250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A703A44D2511724300F703E5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A72A529B251D5E9300A1AF15 /* AddPlayerViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A703A44E2511724B00F703E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4F47B25102F8B0038A5EC /* AddPlayerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A703A44F2511726A00F703E5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A703A4502511727E00F703E5 /* Coordinator.swift */,
+				A703A4522511745100F703E5 /* RootCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A72BD8B425504BE0006DAC67 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A72BD8AE25504A6F006DAC67 /* Soccer_MVVM.xcdatamodeld */,
+				A72BD8B525504BF6006DAC67 /* PlayerExtension.swift */,
+				A72BD8BF25504D5E006DAC67 /* CoreDataManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		A72DCCF22509854F0092DDA7 /* Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				A72DCCF32509856E0092DDA7 /* AutoLayout.swift */,
+			);
+			path = "Property Wrappers";
+			sourceTree = "<group>";
+		};
+		A72DCCF725098B2E0092DDA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A72DCCF825098B430092DDA7 /* PlayerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7560F172522A4EE00E24F0A /* Soccer MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7560F182522A4EE00E24F0A /* Soccer_MVVMTests.swift */,
+				A7560F222522A51300E24F0A /* PersistenceTests.swift */,
+				A7699DDA2523E54300E1B69F /* AddPlayerViewModelTests.swift */,
+				A7560F1A2522A4EE00E24F0A /* Info.plist */,
+			);
+			path = "Soccer MVVMTests";
+			sourceTree = "<group>";
+		};
+		A7B1DD6C25083CB00066F250 = {
+			isa = PBXGroup;
+			children = (
+				A7B1DD7725083CB00066F250 /* Soccer MVVM */,
+				A7560F172522A4EE00E24F0A /* Soccer MVVMTests */,
+				A7B1DD7625083CB00066F250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B1DD7625083CB00066F250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1DD7525083CB00066F250 /* Soccer MVVM.app */,
+				A7560F162522A4EE00E24F0A /* Soccer MVVMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B1DD7725083CB00066F250 /* Soccer MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A72BD8B425504BE0006DAC67 /* Core Data */,
+				A7B1DD8F25083FF20066F250 /* Resources */,
+				A703A44F2511726A00F703E5 /* Coordinator */,
+				A72DCCF22509854F0092DDA7 /* Property Wrappers */,
+				A72DCCF725098B2E0092DDA7 /* Models */,
+				A7B1DD8E25083FDC0066F250 /* Add Player Screen */,
+				A7B1DD8C25083FA80066F250 /* Player List Screen */,
+				A7B1DD8D25083FC10066F250 /* Player Detail Screen */,
+			);
+			path = "Soccer MVVM";
+			sourceTree = "<group>";
+		};
+		A7B1DD8C25083FA80066F250 /* Player List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1DD90250840B80066F250 /* View */,
+				A7B1DD91250840BC0066F250 /* View Model */,
+			);
+			path = "Player List Screen";
+			sourceTree = "<group>";
+		};
+		A7B1DD8D25083FC10066F250 /* Player Detail Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Player Detail Screen";
+			sourceTree = "<group>";
+		};
+		A7B1DD8E25083FDC0066F250 /* Add Player Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A703A44E2511724B00F703E5 /* View */,
+				A703A44D2511724300F703E5 /* View Model */,
+			);
+			path = "Add Player Screen";
+			sourceTree = "<group>";
+		};
+		A7B1DD8F25083FF20066F250 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1DD7825083CB10066F250 /* AppDelegate.swift */,
+				A7B1DD7A25083CB10066F250 /* SceneDelegate.swift */,
+				A7B1DD8125083CB30066F250 /* Assets.xcassets */,
+				A7B1DD8325083CB30066F250 /* LaunchScreen.storyboard */,
+				A7B1DD8625083CB30066F250 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7B1DD90250840B80066F250 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1DD7C25083CB10066F250 /* PlayerListViewController.swift */,
+				A72DCCFA250996DE0092DDA7 /* PlayerListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7B1DD91250840BC0066F250 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A72BD8AA2550496C006DAC67 /* PlayerListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7560F152522A4EE00E24F0A /* Soccer MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7560F1F2522A4EE00E24F0A /* Build configuration list for PBXNativeTarget "Soccer MVVMTests" */;
+			buildPhases = (
+				A7560F122522A4EE00E24F0A /* Sources */,
+				A7560F132522A4EE00E24F0A /* Frameworks */,
+				A7560F142522A4EE00E24F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7560F1C2522A4EE00E24F0A /* PBXTargetDependency */,
+			);
+			name = "Soccer MVVMTests";
+			productName = "Soccer MVVMTests";
+			productReference = A7560F162522A4EE00E24F0A /* Soccer MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7B1DD7425083CB00066F250 /* Soccer MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B1DD8925083CB30066F250 /* Build configuration list for PBXNativeTarget "Soccer MVVM" */;
+			buildPhases = (
+				A7B1DD7125083CB00066F250 /* Sources */,
+				A7B1DD7225083CB00066F250 /* Frameworks */,
+				A7B1DD7325083CB00066F250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soccer MVVM";
+			productName = "Soccer MVVM";
+			productReference = A7B1DD7525083CB00066F250 /* Soccer MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B1DD6D25083CB00066F250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = LeonardoAOliveira;
+				TargetAttributes = {
+					A7560F152522A4EE00E24F0A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A7B1DD7425083CB00066F250;
+					};
+					A7B1DD7425083CB00066F250 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A7B1DD7025083CB00066F250 /* Build configuration list for PBXProject "Soccer MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B1DD6C25083CB00066F250;
+			productRefGroup = A7B1DD7625083CB00066F250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B1DD7425083CB00066F250 /* Soccer MVVM */,
+				A7560F152522A4EE00E24F0A /* Soccer MVVMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7560F142522A4EE00E24F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B1DD7325083CB00066F250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B1DD8525083CB30066F250 /* LaunchScreen.storyboard in Resources */,
+				A7B1DD8225083CB30066F250 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7560F122522A4EE00E24F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7560F192522A4EE00E24F0A /* Soccer_MVVMTests.swift in Sources */,
+				A7699DDB2523E54300E1B69F /* AddPlayerViewModelTests.swift in Sources */,
+				A7560F232522A51300E24F0A /* PersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B1DD7125083CB00066F250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B1DD7D25083CB10066F250 /* PlayerListViewController.swift in Sources */,
+				A72A529C251D5E9300A1AF15 /* AddPlayerViewModel.swift in Sources */,
+				A703A4512511727E00F703E5 /* Coordinator.swift in Sources */,
+				A7B1DD7925083CB10066F250 /* AppDelegate.swift in Sources */,
+				A72BD8B025504A6F006DAC67 /* Soccer_MVVM.xcdatamodeld in Sources */,
+				A72BD8AB2550496C006DAC67 /* PlayerListViewModel.swift in Sources */,
+				A72DCCF42509856E0092DDA7 /* AutoLayout.swift in Sources */,
+				A7F4F47C25102F8B0038A5EC /* AddPlayerViewController.swift in Sources */,
+				A7B1DD7B25083CB10066F250 /* SceneDelegate.swift in Sources */,
+				A72DCCF925098B430092DDA7 /* PlayerModel.swift in Sources */,
+				A72BD8B625504BF6006DAC67 /* PlayerExtension.swift in Sources */,
+				A703A4532511745100F703E5 /* RootCoordinator.swift in Sources */,
+				A72BD8C025504D5E006DAC67 /* CoreDataManager.swift in Sources */,
+				A72DCCFB250996DE0092DDA7 /* PlayerListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7560F1C2522A4EE00E24F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B1DD7425083CB00066F250 /* Soccer MVVM */;
+			targetProxy = A7560F1B2522A4EE00E24F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B1DD8325083CB30066F250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B1DD8425083CB30066F250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7560F1D2522A4EE00E24F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUKN8ST5B;
+				INFOPLIST_FILE = "Soccer MVVMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeonardoAOliveira.Soccer-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer MVVM.app/Soccer MVVM";
+			};
+			name = Debug;
+		};
+		A7560F1E2522A4EE00E24F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUKN8ST5B;
+				INFOPLIST_FILE = "Soccer MVVMTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeonardoAOliveira.Soccer-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer MVVM.app/Soccer MVVM";
+			};
+			name = Release;
+		};
+		A7B1DD8725083CB30066F250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7B1DD8825083CB30066F250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B1DD8A25083CB30066F250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUKN8ST5B;
+				INFOPLIST_FILE = "Soccer MVVM/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeonardoAOliveira.Soccer-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7B1DD8B25083CB30066F250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUKN8ST5B;
+				INFOPLIST_FILE = "Soccer MVVM/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeonardoAOliveira.Soccer-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7560F1F2522A4EE00E24F0A /* Build configuration list for PBXNativeTarget "Soccer MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7560F1D2522A4EE00E24F0A /* Debug */,
+				A7560F1E2522A4EE00E24F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B1DD7025083CB00066F250 /* Build configuration list for PBXProject "Soccer MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B1DD8725083CB30066F250 /* Debug */,
+				A7B1DD8825083CB30066F250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B1DD8925083CB30066F250 /* Build configuration list for PBXNativeTarget "Soccer MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B1DD8A25083CB30066F250 /* Debug */,
+				A7B1DD8B25083CB30066F250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A72BD8AE25504A6F006DAC67 /* Soccer_MVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72BD8AF25504A6F006DAC67 /* SoccerMVVM.xcdatamodel */,
+			);
+			currentVersion = A72BD8AF25504A6F006DAC67 /* SoccerMVVM.xcdatamodel */;
+			path = Soccer_MVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7B1DD6D25083CB00066F250 /* Project object */;
+}
